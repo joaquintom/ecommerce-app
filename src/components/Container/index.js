@@ -1,18 +1,10 @@
 
-const estilos = {
-    
-    borderWidth: "5px",
-    borderColor:"#f00",
-    borderStyle: "solid",
-    padding: "40",
-    margin: "40",
-    fontSize: "3rem",
+import './Container.css';
 
-};
 
 function Container(props){
     return (
-        <div style={estilos}>
+        <div>
         {props.texto}
         </div>
         );
