@@ -9,6 +9,7 @@ function ItemCount () {
     let min = 1;
     let max = 6;
 
+    //     variable  funcion      estado  valor inicial
     const [agregar, setAgregar] = useState(min);
 
 
